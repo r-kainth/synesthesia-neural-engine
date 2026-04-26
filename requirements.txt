@@ -1,0 +1,15 @@
+# --- Stage 1: The Ear (Audio/Text Extraction) ---
+faster-whisper
+librosa==0.11.0
+soundfile==0.12.1
+numpy
+
+# --- Stage 2: The Brain (NLU & API) ---
+google-generativeai
+python-dotenv==1.0.1
+
+# --- Stage 3: The Eye (AMD GPU Image Generation) ---
+diffusers
+transformers
+accelerate
+onnxruntime-directml
