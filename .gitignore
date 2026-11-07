@@ -1,0 +1,34 @@
+# --- Personal / local ---
+CLAUDE.local.md
+.env
+.env.*
+!.env.example
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# --- Node / Vite ---
+node_modules/
+dist/
+*.tsbuildinfo
+npm-debug.log*
+
+# --- Terraform ---
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+
+# --- OS ---
+.DS_Store
+Thumbs.db
